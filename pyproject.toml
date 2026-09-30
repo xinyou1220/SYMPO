@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sympo"
+version = "0.1.0"
+description = "SymPO: permutation-symmetric preference optimization with REINFORCE++"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name = "Meng-Ching Chen" },
+    { name = "Xin-You Song" },
+    { name = "Sheng-Bi Chen" },
+]
+requires-python = ">=3.9"
+dependencies = ["torch>=2.0"]
+
+[tool.setuptools]
+packages = ["sympo"]
