@@ -214,12 +214,6 @@ python tests/test_sympo.py
 
 The update follows REINFORCE++ (Hu, Liu, Xu and Shen, arXiv:2501.03262).
 
-## Contributors
-
-- Meng-Ching Chen
-- Xin-You Song
-- Sheng-Bi Chen
-
 ## License
 
 MIT
